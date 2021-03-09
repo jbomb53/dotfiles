@@ -78,4 +78,11 @@ fi
 source ~/dotfiles/zsh/prompt.sh
 export PATH=$PATH:$HOME/dotfiles/utils
 
+# Jeremy's custom edits
 source ~/dotfiles/zsh/lockbook.sh
+source ~/.config/aliasrc
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUAL_ENV_DISABLE_PROMPT=0
+export PROJECT_HOME=$HOME/code/src/local
+source /usr/local/bin/virtualenvwrapper.sh
